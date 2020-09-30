@@ -1,0 +1,37 @@
+{
+  "name": "next-redis-cache",
+  "version": "1.0.0",
+  "description": "A package to manage redis caching of genrated pages through next.js .",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx babel src --out-dir dist",
+    "start": "npx babel src --watch --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajnishKatharotiya/next-redis-cache.git"
+  },
+  "keywords": [
+    "redis",
+    "next-redis",
+    "redis-cache",
+    "next-redis-cache",
+    "nextje-cache"
+  ],
+  "author": "Rajnish Katharotiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RajnishKatharotiya/next-redis-cache/issues"
+  },
+  "homepage": "https://github.com/RajnishKatharotiya/next-redis-cache#readme",
+  "dependencies": {
+    "path-to-regexp": "^6.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/preset-env": "^7.11.5"
+  }
+}
