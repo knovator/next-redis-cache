@@ -44,9 +44,11 @@ class NextCache {
     this.config = {
       includes: includes, // array
       excludes: excludes, // array
-      expire: null, // number | object
-      disableCaching: false,
-      log: true,
+      defaultExpire: null, // seconds
+      expire: {}, // object of path and seconds pair
+      log: true, //boolean
+      cache: true, //boolean
+      prefix: "__next-redis-cache__",
       ...restConfig
     };
   }
@@ -79,9 +81,6 @@ class NextCache {
    * @param {function} next callback
    */
   middleware(req, res, next) {
-    if(this.config.disableCaching){
-        return next()
-    }
     return caching({
       redis: this.redis,
       config: this.config,
