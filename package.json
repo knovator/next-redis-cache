@@ -19,7 +19,7 @@
     "nextje-cache"
   ],
   "author": "Rajnish Katharotiya",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/RajnishKatharotiya/next-redis-cache/issues"
   },

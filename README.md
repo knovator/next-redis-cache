@@ -40,6 +40,9 @@ const app = next({ dev: development })
 const handler = app.getRequestHandler()
 const client = redis.createClient()
 
+/**
+ *  Initialization of Next Redis Cache instance
+ */
 const nextRedisCache = new NextRedisCache(client, app, {
   includes: ['/'],  // routes to include for caching
 })
