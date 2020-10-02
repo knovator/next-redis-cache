@@ -1,6 +1,6 @@
 # Next Redis Cache
 
-Next Redis Cache is a Next.js compitable library for caching server rendered pages to serve faster then ever. 
+Next Redis Cache is a Next.js compatible library for caching server rendered pages to serve faster than ever. 
 
 
 ## Installation
