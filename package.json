@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RajnishKatharotiya/next-redis-cache.git"
+    "url": "git+https://github.com/knovator/next-redis-cache.git"
   },
   "keywords": [
     "redis",
@@ -21,9 +21,9 @@
   "author": "Rajnish Katharotiya",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RajnishKatharotiya/next-redis-cache/issues"
+    "url": "https://github.com/knovator/next-redis-cache/issues"
   },
-  "homepage": "https://github.com/RajnishKatharotiya/next-redis-cache#readme",
+  "homepage": "https://github.com/knovator/next-redis-cache#readme",
   "dependencies": {
     "path-to-regexp": "^6.2.0"
   },
