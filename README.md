@@ -81,7 +81,7 @@ Here, Instance of NextRedisCache initialized with three arguments as following.
 |:------:|:---------------------:|:--------:|:--------:|
 | Client |      Redis Client     |    ✅    |          |
 |   App  |      Next.js App      |    ✅    |          |
-| Config | Configuration  Object |    ❌    |    {}    |
+| Config | [Configuration  Object](https://github.com/RajnishKatharotiya/next-redis-cache#configuration) |    ❌    |    {}    |
 
 
 ## Configuration
@@ -99,11 +99,15 @@ All you need to know about config object.
 | prefix        | To identify your cache in store by unique prefix.                                                                       | String           | "__my-cache__"      | "__my-cache__" |
 | log           | Log timing of get/set to monitor caching                                                                                | Boolean          | true                | false          |
 
+Note : includes and excludes is using [path-to-regexp](https://www.npmjs.com/package/path-to-regexp) to validate routes.
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are welcome. For major/valid changes or task from to-do, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+ 
+### To Do
+- Define Test Cases 
 
 
 ## License
