@@ -52,8 +52,9 @@ app
   .then(() => {
     const server = express()
 
-    server.get('*', nextRedisCache.middleware, (request, response) =>
-      handler(request, response)
+    server.get('*', 
+      (request, response, nxt) => nextRedisCache.middleware(request, response, nxt), 
+      (request, response) => handler(request, response)
     )
 
     /* starting server */
