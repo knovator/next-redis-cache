@@ -46,7 +46,7 @@ class NextCache {
       excludes: excludes, // array
       defaultExpire: null, // seconds
       expire: {}, // object of path and seconds pair
-      log: true, //boolean
+      log: false, //boolean
       cache: true, //boolean
       prefix: "__next-redis-cache__",
       ...restConfig
