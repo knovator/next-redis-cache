@@ -95,8 +95,8 @@ All you need to know about config object.
 
 | Key           | Detail                                                                                                                  | Type             | Example             | Default        |
 |---------------|-------------------------------------------------------------------------------------------------------------------------|------------------|---------------------|----------------|
-| includes      | Collection of specific routes which should be cache.                                                                    | Array            | ['/', '/blogs/*']   | []             |
-| excludes      | Collection of specific routes which shouldn't be cache.                                                                 | Array            | ['/cart', '/*.css'] | [*]            |
+| includes      | Collection of specific routes which should be cache.                                                                    | Array            | ['/', '/blogs/(.*)']   | []             |
+| excludes      | Collection of specific routes which shouldn't be cache.                                                                 | Array            | ['/cart', '/(.*).js'] | [*]            |
 | defaultExpire | Expiration time to expire you cache after a particular time. Note: `null` value of this key will set cache permanently. | Number (Seconds) | 3000                | null           |
 | expire        | To define different expiration time for different routes.                                                               | Number (Seconds) | 3000                | null           |
 | cache         | To disable caching permanently by setting it false.                                                                     | Boolean          | true                | true           |

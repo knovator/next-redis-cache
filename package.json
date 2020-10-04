@@ -1,6 +1,6 @@
 {
   "name": "next-redis-cache",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A package to manage redis caching of genrated pages through next.js .",
   "main": "dist/index.js",
   "scripts": {

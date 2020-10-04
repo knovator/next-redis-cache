@@ -8,10 +8,8 @@ const { pathToRegexp } = require("path-to-regexp");
 function refactorPath (path){
   if(path === '*'){
     return '(.*)'
-  } else if(path.startsWith('(')){
-    return path
   }
-  return `(${path})`
+  return path
 }
 
 const opts = {
